@@ -181,6 +181,12 @@ table {
 td,
 th {
   padding: 0; }
+  .spinner img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -5735,7 +5741,8 @@ button.close {
 
 input[type=email] {
   color: black;
-  height: 40px; }
+  height: 40px; 
+margin-right: 20px;}
 
 .button {
   background: #fff;
@@ -6813,7 +6820,8 @@ img {
   justify-content: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 100px; }
+  margin-top: 100px; 
+    min-width: 400px;}
 
 .add_email {
   margin-bottom: 0; }

@@ -11,6 +11,8 @@ $( document ).ready(function() {
 
 		 var formData = loginForm.serialize();
 
+		 $('spinner').removeClass('hide');
+
 		$.ajax({
 
 			   type: 'POST',
@@ -22,6 +24,8 @@ $( document ).ready(function() {
 			    $('.alert-success').removeClass('hide');
 			    $('.alert-success').addClass('fadeInUp');
 			    $('.server-time').text(data)
+			    $('spinner').addClass('hide');
+
 
 
 			   },
