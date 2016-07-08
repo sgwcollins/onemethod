@@ -1,0 +1,25 @@
+input[type=email]{
+	color:black;
+	height: 40px;
+}
+.button{
+	background: #fff;
+    background: #f47a20;
+    	color: #fff;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.0px;
+    display: inline-block;
+    -webkit-backface-visibility: hidden;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: background 0.1s ease-in;
+    -moz-transition: background 0.1s ease-in;
+    -o-transition: background 0.1s ease-in;
+    transition: background 0.1s ease-in;
+    border:none;
+    
+}
