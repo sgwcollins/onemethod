@@ -1,6 +1,4 @@
-This application was built for the onemethod
-It is a simple form used that take an email address and and then provides the users with an success full message
-the email than get sent to a mysql database
+This application was built for OneMethod. It is a single page microsite that allows the users to submit their emails to OneMethod. Users will receive a success message upon completion. The email address is sent to a MySQL database.
 
 Validation:
 Check for unique value
