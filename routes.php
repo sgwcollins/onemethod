@@ -11,8 +11,6 @@
 |
 */
 
-// Default route display registration form
+// Registration routes...
 Route::get('/', 'Auth\AuthController@getRegister');
-
-//Validates and enteries users information into database
 Route::post('auth/register', 'Auth\AuthController@postRegister');

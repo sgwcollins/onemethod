@@ -1,5 +1,11 @@
 This application was built for the onemethod
 It is a simple form used that take an email address and and then provides the users with an success full message
+the email than get sent to a mysql database
+
+Validation:
+Check for unique value
+and actual email
+
 
 Tools used:
 Laravel
